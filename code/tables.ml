@@ -57,9 +57,8 @@ let bool_fn_table : bool_fn_table_t = Hashtbl.create 16
 let _ = List.iter (fun (label, value) ->
                   Hashtbl.replace bool_fn_table label value)
                   ["="      ,(=);
-                   "<>"     ,(<>);
                    "=="     ,(==);
-                   "!="     ,(!=);
+                   "!="     ,(<>);
                    "<"      ,(<);
                    ">"      ,(>);
                    "<="     ,(<=);

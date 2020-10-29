@@ -2,8 +2,9 @@
 
 (*
     So far:
-    -31-collatz.mb, 40-sort-array, 41-eratosthenes do not work
-    -could possibly be because of my dim?
+    -40-sort-array, 41-eratosthenes do not work
+    -could possibly be because of my dim/if/goto?
+    -they just dont print anything when ran
 *)
 
 open Absyn
